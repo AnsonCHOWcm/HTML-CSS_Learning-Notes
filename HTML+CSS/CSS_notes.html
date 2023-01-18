@@ -1,0 +1,143 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+</head>
+<body>
+    <h1>CSS</h1>
+    <a href="/notes.html">Homepage</a>
+    <a href="/HTML_notes.html">HTML</a>
+    <a href="/CSS_notes.html">CSS</a>
+    <a href="/test.html">Test Page</a>
+    <h2>Inserting CSS</h2>
+<ol>
+    <li>Method 1 : Inserting General CSS Design for tag object</li>
+    <p>Syntax</p>
+    <p>TAG{CSS Attribute}</p>
+    <br>
+    <img src="/img/Inserting general CSS.jpg" alt="Inserting Gerenal CSS" width = "300">
+    <p>Example</p>
+    <img src="/img/Inserting General CSS Example.jpg" alt="Inserting Gerenal CSS Example">
+    <p>Output</p>
+    <img src="/img/Inserting General CSS Output.jpg" alt="General CSS Example Output">
+    <li>Method 2 : Inserting CSS Design for particular object</li>
+    <p>Syntax</p>
+    <p>#ID{CSS Attribute}</p>
+    <p>Note that ID is given in the tag of the target object</p>
+    <p>Example</p>
+    <img src="/img/Inserting Particular CSS Example_p1.jpg" alt="Inserting Particular CSS_Part1" width = "500">
+    <img src="/img/Inserting Particular CSS Example_p2.jpg" alt="Inserting Particular CSS_Part2" width = "500">
+    <p>Output</p>
+    <img src="/img/Inserting Particular CSS Output.jpg" alt="General CSS Example Output">
+    <li>Method 3 : Inserting CSS Design for a user-defined group object</li>
+    <p>
+        Step 1 : create a class (name and features) under style
+        <br>
+        Syntax : .CLASSNAME{FEATURES}
+    </p>
+    <p>
+        Step 2 : Add the class into the tag of the target object
+        <br>
+        Syntax : (Within the tag) tag class = "CLASS NAME"
+    </p>
+    <p>Example</p>
+    <img src="/img/Inserting Group CSS Example_p1.jpg" alt="Inserting Group CSS Example_p1" width = "500">
+    <img src="/img/Inserting Group CSS Example_p2.jpg" alt="Inserting Group CSS Example_p2" width = "500">
+    <p>Output</p>
+    <img src="/img/Inserting Group CSS Output.jpg" alt="Inserting Group CSS Output">
+    <p>*** multiple class can be applied to the same tag, just separate the class name in tag for declaration</p>
+</ol>
+<h2>CSS Wording Features</h2>
+<table border = "3">
+    <tr>
+        <td>Features</td>
+        <td>Syntax</td>
+    </tr>
+    <tr>
+        <td>Text Position</td>
+        <td>text-align</td>
+    </tr>
+    <tr>
+        <td>Line Height</td>
+        <td>line-height</td>
+    </tr>
+    <tr>
+        <td>Letter Spacing</td>
+        <td>letter-spacing</td>
+    </tr>
+    <p>first declare a class for the text features, then insert the class in tag</p>
+</table>
+<h2>CSS Image Features</h2>
+<p>There is a predefined class (Method 1) for Images : "img{FEATURES}" (declared it under style)</p>
+<h2>CSS Body Features</h2>
+<p>Like Images, there is a predefined class (Method 1) for Body
+    <br>
+    One of the usage : Setting up the background
+</p>
+<table border = "3">
+    <tr>
+        <td>Syntax</td>
+        <td>Description</td>
+    </tr>
+    <tr>
+        <td>background-color</td>
+        <td>This would give the corresponding color to the background of the website</td>
+    </tr>
+    <tr>
+        <td>background-image : url(PATH)</td>
+        <td>This would allow developer to make a image (local or online) as the background</td>
+    </tr>
+    <tr>
+        <td>background-repeat</td>
+        <td>If the image is not large enough, this features would determine whether the image would be copied to cover the page</td>
+    </tr>
+    <tr>
+        <td>background-size</td>
+        <td>This would allow the developer to adjust the size of the image or set the image to cover the page</td>
+    </tr>
+    <tr>
+        <td>background-attachment</td>
+        <td>This would determine whether the image would follow the vertical motion of the page (roll up and down)</td>
+    </tr>
+    <tr>
+        <td>background-position : X-AXIS POSITON, Y-AXIS POSITION</td>
+        <td>This allow feveloper to set the image position on the background</td>
+    </tr>
+</table>
+<h2>CSS Hyperlinks Features</h2>
+<ol>
+    <li>predefined groups</li>
+    <p>Like image and body, a has a predefined class (Method 1) in CSS : a{FEATURES}</p>
+    <li>specific attributes</li>
+    <p>To specify hyperlink attributes : a:ATTRIBUTES</p>
+    <table border = "3">
+        <tr>
+            <td>Attributes</td>
+            <td>Description</td>
+        </tr>
+        <tr>
+            <td>hover</td>
+            <td>it specifies the apperance of link when the mouse is over the link</td>
+        </tr>
+        <tr>
+            <td>visited</td>
+            <td>it specifies the apperance of link when users have already visited the link</td>
+        </tr>
+    </table>
+</ol>
+<h2>CSS file</h2>
+<p>We can create another file called style.css to store all the css style in the html
+    <br>
+    Then we can link the html to the file for the applications by 
+    <br>
+    "<"link rel="stylesheet" href="STYLE_CSS_PATH"">"
+</p>
+<h2>CSS Library</h2>
+<p>There are many open sources CSS Template for developer to use
+    <br>
+    We just need to link them to the HTML and apply them 
+    <br>
+    (the method of linking refer to the documentation of the library)
+</p>
+</body>
+</html>
